@@ -1,5 +1,7 @@
 # 1inch Limit Order Protocol v4 SDK
 
+Types fixed
+
 ## Installation
 
 ```shell
