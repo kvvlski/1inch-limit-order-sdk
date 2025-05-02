@@ -19,7 +19,8 @@ export type LimitOrderApiItem = {
     makerRate: string
     takerRate: string
     isMakerContract: boolean
-    orderInvalidReason: null | string[]
+    orderInvalidReason: string | null
+    orderStatus: StatusKey
 }
 
 /**
